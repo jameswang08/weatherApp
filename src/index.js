@@ -1,4 +1,5 @@
 import generatePage from "./form";
+import './style.css';
 
 async function getWeather() {
   const data = await fetch(

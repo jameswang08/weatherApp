@@ -1,6 +1,5 @@
 function generatePage() {
-  const container = document.createElement('div');
-  container.id = 'container';
+  const container = document.querySelector('.topHalf');
 
   // Create form
   const form = document.createElement('form');
@@ -8,7 +7,7 @@ function generatePage() {
   // Create text input
   const input = document.createElement('input');
   input.setAttribute('type', 'text');
-  input.setAttribute('placeholder', 'Enter a location...');
+  input.setAttribute( 'placeholder', 'Enter a location...');
 
   // Create submit button
   const submit = document.createElement('input');
@@ -20,7 +19,6 @@ function generatePage() {
   form.appendChild(submit);
 
   container.appendChild(form);
-  document.querySelector('body').appendChild(container);
 }
 
 export default generatePage;
