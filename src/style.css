@@ -1,41 +1,43 @@
-html, body, h1{
-    margin: 0;
-    padding: 0;
+html,
+body,
+h1 {
+  margin: 0;
+  padding: 0;
 }
 
-#container{
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    flex-direction: column;
-    background-image: url('clouds.jpg');
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-image: url('clouds.jpg');
 }
 
-.topHalf{
-    width: 100%;
-    flex: 1 1 0;
-    display: flex;
-    align-items: flex-end;  
-    justify-content: center;
+.topHalf {
+  width: 100%;
+  flex: 1 1 0;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 
-.topHalf form{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    padding: 12px;
+.topHalf form {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 12px;
 }
 
-.topHalf input[type='text']{
-    width: 50%;
-    font-size: 2em;
-    padding: 4px; 
+.topHalf input[type='text'] {
+  width: 50%;
+  font-size: 2em;
+  padding: 4px;
 }
 
-.bottomHalf{
-    width: 100%;
-    flex: 2 1 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.bottomHalf {
+  width: 100%;
+  flex: 2 1 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
