@@ -8,3 +8,4 @@ What I learned:
 -How to use with APIs
 -Working with a prettier and Babel
 -Working with Webpack plugins
+-Practice writing structured commit messages
