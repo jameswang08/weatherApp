@@ -33,6 +33,9 @@ async function displayData(keyWord, unit) {
         const {humidity} = data.current;
         
         const weatherData = document.createElement('div');
+        weatherData.style.display = 'flex';
+        weatherData.style.flexDirection = 'column';
+        weatherData.style.gap='8px';
         
         const locationHeading = document.createElement('h1');
         locationHeading.textContent = `Location: ${location}`;
