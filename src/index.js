@@ -1,6 +1,6 @@
 import generatePage from "./form";
-import displayData from "./display";
+import searchBtn from "./search";
 import './style.css';
 
 generatePage();
-displayData();
+searchBtn();

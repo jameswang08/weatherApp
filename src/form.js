@@ -8,6 +8,7 @@ function generatePage() {
   const input = document.createElement('input');
   input.setAttribute('type', 'text');
   input.setAttribute( 'placeholder', 'Enter a location...');
+  input.classList.add('search');
 
   // Create submit button
   const submit = document.createElement('input');
